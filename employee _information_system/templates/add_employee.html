@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Employee</title>
+</head>
+<body>
+    <h2>Add New Employee</h2>
+    <form method="post">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+        <label>Type:</label>
+        <select name="type" required>
+            <option value="Full-Time">Full-Time</option>
+            <option value="Part-Time">Part-Time</option>
+            <option value="Contract">Contract</option>
+        </select><br>
+        <label>Salary:</label>
+        <input type="number" name="salary" step="0.01" required><br>
+        <label>Hours (Part-Time only):</label>
+        <input type="number" name="hours" step="0.01"><br>
+        <button type="submit">Add Employee</button>
+    </form>
+</body>
+</html>
